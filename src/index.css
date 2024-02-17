@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-container {
+  @apply w-32 h-32;
+}
+
+.logo {
+  @apply w-full h-full object-cover;
+}
+
+.time-container {
+  @apply mt-4 text-xl font-bold;
+}
